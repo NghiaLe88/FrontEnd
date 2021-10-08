@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 15px;
+  }
+  .wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: 2px solid #E5E9F2;
+  }
+  .container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .header{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  .header-menu-item{
+    display: flex;
+  }
+  
+  .button-light{
+    width: 77px;
+    height: 40px;
+    background-color: #F1E4FF;
+    border: none;
+    border-radius: 6px;
+    color: #8C30F5;
+  }
+  
+  .button-dark{
+    width: 91px;
+    height: 40px;
+    background-color: #8C30F5;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+  }
+  
+  .header-auth button:not(:first-child) {
+    margin-left: 14px;
+  }
+  
+  .header-menu li{
+    float: left;
+    padding: 0 32px;
+  }
+  
+  .hero .button-dark{
+    width: 154px;
+    height: 48px;
+  }
+  
+  .hero .container {
+    padding-top: 77px;
+    padding-bottom: 77px;
+    display: flex;
+    align-items: center;
+    }
+  
+    .hero-content {
+      padding-right: 30px;
+    }
+  
+    .hero-lable {
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      margin-bottom: 16px;
+    }
+  
+    .webpage {
+      width: auto;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  
+    .hero .container > * {
+      width: 100%;
+    }
+  
+    .company .container {
+      display: flex;
+      align-items: center;
+    }
+  
+    .hero-description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;    
+      margin-bottom: 32px;
+    }
+  
+    .company-content {
+      width: 50%;
+    }
+  
+    .company-logo {
+      width: 502px;
+      height: 550px;
+      }
+  
+    .company-left {
+      max-width: 445px;
+    }
+  
+    .company-lable {
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 8px;
+    }
+  
+    .company-description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+    }
